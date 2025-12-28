@@ -389,6 +389,13 @@ footer .icones p {
     footer h2{
         margin-bottom: 20px;
     }
+     footer .icones p a{
+         overflow-wrap: break-word;
+         word-break: break-word;
+    }
+     footer .icones{
+        height: 150px;
+    }
 
 }
 @media(max-width:320px){
@@ -405,11 +412,5 @@ footer .icones p {
     footer .icones img{
         width: 44px;
     }
-    footer .icones{
-        height: 150px;
-    }
-    footer .icones p a{
-         overflow-wrap: break-word;
-         word-break: break-word;
-    }
+
 }
