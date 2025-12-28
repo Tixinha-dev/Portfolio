@@ -190,11 +190,13 @@ justify-content: space-between;
     opacity: 0;
     transition: 0.6s;
     width: 80%;
+    pointer-events: none;
 
 }
 
 .project-card:hover .project-info {
     opacity: 1;
+    pointer-events: all;
 }
 
 .project-info h3 {
@@ -402,5 +404,12 @@ footer .icones p {
     }
     footer .icones img{
         width: 44px;
+    }
+    footer .icones{
+        height: 150px;
+    }
+    footer .icones p a{
+         overflow-wrap: break-word;
+         word-break: break-word;
     }
 }
